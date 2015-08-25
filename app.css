@@ -1,0 +1,13 @@
+html {
+  /*background-image: url("http://pre02.deviantart.net/0d5a/th/pre/f/2010/028/2/e/twisted_tree_and_moss_by_dantecosplayer.jpg");*/
+  background-color: green;
+}
+
+.sticky {
+  background-color: url("http://img13.deviantart.net/058a/i/2012/036/4/3/green_sticky_note_by_bonslyguy-d4orxnh.png")
+}
+
+.txt-align {
+  text-align: center;
+
+}

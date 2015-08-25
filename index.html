@@ -7,11 +7,12 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
   <!-- your angular js -->
   <script type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="app.css">
   <title>Chat Tracker</title>
 </head>
 <body>
-  <h1> Chat Tracker </h1>
-  <h3> Ms. Nesteby </h3>
+  <h1 class="txt-align"> Chat Tracker </h1>
+  <h3 class="txt-align"> Ms. Nesteby's Notes </h3>
  <!-- Each controller has its own scope: the HTML element where they were defined. -->
   <form ng-controller="formCtrl" novalidate>
     Student:<br>
@@ -24,8 +25,13 @@
 <!--   <p>form = {{ user }}</p>
   <p>master = {{master}}</p> -->
 </div>
+<!-- Directives allow you to write HTML that expresses behavior of your application -->
 
 
+<!-- _____________________to add chart___________________ -->
+<!-- <canvas id="polar-area" class="chart chart-polar-area" data="data"
+  labels="labels"></canvas>  -->
+<!-- ________________________________________ -->
 
 </body>
 </html>
